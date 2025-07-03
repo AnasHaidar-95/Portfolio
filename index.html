@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <div id="menu-nav" class="menu-nav">
+        <svg id="close-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"
+            fill="rgba(255,255,255,1)">
+            <path
+                d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z">
+            </path>
+        </svg>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#services-section">Services</a></li>
+            <li><a href="#my-projects">My Projects</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+        </ul>
+    </div>
+    <nav class="navbar-container">
+        <a href="#" class="logo">Portfolio</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#services-section">Services</a></li>
+            <li><a href="#my-projects">My Projects</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+        </ul>
+
+    
+<svg class="menu" id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="rgba(59,130,246,1)"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg>
+        </svg>
+    </nav>
+    <!-- Main Section -->
+    <section class="main-section">
+        <div class="main-section-container">
+            <!-- AOS Animation -->
+            <div class="main-container-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <h1>My Name Is Anas Haidar</h1>
+                <h1>Im A <span>Full Stack Developer</span></h1>
+
+            </div>
+            <div class="main-container-box"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="assets/image/main/1.jpg" alt="">
+            </div>
+        </div>
+        <button onclick="topButtonFunction()" id="topButton" title="Back to top">Top</button>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about-section" class="about-section">
+        <h1 class="header-text"> About</h1>
+        <div class="about-section-container">
+            <div class="about-section-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"><img src="assets/image/main/2.jpg" alt="">
+            </div>
+            <div class="about-section-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <p>Hello, I'm Anas, a passionate full stack developer with a knack for creating seamless digital
+                    experiences. From the initial spark that first drew me into the world of coding to my current
+                    journey in tackling both front-end aesthetics and back-end robustness, I thrive on transforming
+                    ideas into interactive, user-friendly realities.</p>
+
+                <p>I specialize in building modern web applications where elegant design meets efficient, scalable
+                    functionality. Whether I’m crafting intuitive user interfaces or architecting solid server-side
+                    solutions, I approach each project with meticulous attention to detail and a commitment to quality.
+                    I believe that every line of code is an opportunity to solve a problem and add value, pushing me to
+                    stay curious and continuously learn new technologies and best practices.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Services Section -->
+    <section id="services-section" class="services-section">
+        <h1 class="header-text">Services</h1>
+
+        <div class="services-section-container">
+
+            <div class="card" data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000">
+                <div class="card-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+                        style="fill: #fff;transform:msFilter">
+                        <path
+                            d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <h2>Website & Web App Development</h2>
+                    <p>What I Do: I build attractive and user-friendly websites and web apps. I handle both front-end
+                        design and back-end coding so that your site looks great and works reliably.</p>
+
+                    <p>Why It's Important: A clean and functional website grabs visitors' attention and is easy to use,
+                        setting a strong foundation for your online presence.</p>
+                </div>
+            </div>
+
+
+            <div class="card" data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000">
+                <div class="card-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"
+                        fill="rgba(252,252,252,1)">
+                        <path
+                            d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 10H4V19H20V10ZM5 6V8H7V6H5ZM9 6V8H11V6H9Z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <h2>Backend & API Integration</h2>
+                    <p>What I Do: I create the server-side code that runs behind your website. I also integrate APIs to
+                        connect your site with external services or data sources.</p>
+                    <p>
+                        Why It's Important: This makes sure your website can work with data and talk to other services,
+                        keeping your application flexible and interactive.</p>
+                </div>
+            </div>
+
+
+            <div class="card" data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000">
+                <div class="card-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+                        style="fill:rgba(252,252,252,1);transform: ;msFilter:;">
+                        <path
+                            d="M12 2C6.486 2 2 6.486 2 12v4.143C2 17.167 2.897 18 4 18h1a1 1 0 0 0 1-1v-5.143a1 1 0 0 0-1-1h-.908C4.648 6.987 7.978 4 12 4s7.352 2.987 7.908 6.857H19a1 1 0 0 0-1 1V18c0 1.103-.897 2-2 2h-2v-1h-4v3h6c2.206 0 4-1.794 4-4 1.103 0 2-.833 2-1.857V12c0-5.514-4.486-10-10-10z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <h2>Deployment & Ongoing Support</h2>
+                    <p>What I Do: I help launch your website so that it’s live on the internet. I also set up basic
+                        tools to keep your site updated and functioning smoothly over time.</p>
+
+                    <p>Why It's Important: A well-deployed website ensures your work is reliable, secure, and easy to
+                        maintain, which helps you grow your skills and your business.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+<!-- skills bar with aos Animation -->
+    <section class="skills-section">
+        <h1 class="header-text">Skills</h1>
+        <div class="skills-section-container" data-aos="fade-up" data-aos-duration="3000">
+
+            <div class="skills">
+                <h3>HTML</h3>
+                <div class="progress">
+                    <span style="width: 0;" data-width="80%"></span>
+                </div>
+                <h3>CSS</h3>
+                <div class="progress">
+                    <span style="width: 0;" data-width="60%"></span>
+                </div>
+                <h3>JAVASCRIPT</h3>
+                <div class="progress">
+                    <span style="width: 0;" data-width="75%"></span>
+                </div>
+                <h3>ASP</h3>
+                <div class="progress">
+                    <span style="width: 0;" data-width="50%"></span>
+                </div>
+                <h3>C#</h3>
+                <div class="progress">
+                    <span style="width: 0;" data-width="30%"></span>
+                </div>
+                <h3>DATABASE</h3>
+                <div class="progress">
+                    <span style="width: 0;" data-width="80%"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- galery with AOS Animation -->
+    <section id="my-projects" class="my-projects">
+        <h1 class="header-text">My Projects</h1>
+        <div class="portfolio-container">
+            <div class="galery">
+                <div class="project-img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assets/image/projects/coffee.png" alt="">
+                    <div class="project-item-overlay">
+                        <h4>Coffee</h4>
+                        <p>A Cup Of Coffee With Animation</p>
+                        <div class="overlay-area">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assets/image/projects/heart.png" alt="">
+                    <div class="project-item-overlay">
+                        <h4>Heart</h4>
+                        <p>A Heart With Animations And Hover</p>
+                        <div class="overlay-area">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assets/image/projects/glass.png" alt="">
+                    <div class="project-item-overlay">
+                        <h4>Glassmorphism</h4>
+                        <p>Glassmorphism Effect</p>
+                        <div class="overlay-area">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assets/image/projects/company.png" alt="">
+                    <div class="project-item-overlay">
+                        <h4>Company</h4>
+                        <p>A Full Company Responsive Project</p>
+                        <div class="overlay-area">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assets/image/projects/responsiveNavbar.png" alt="">
+                    <div class="project-item-overlay">
+                        <h4>Responsive Navbar</h4>
+                        <p>A Full Responsive Navbar With Hover</p>
+                        <div class="overlay-area">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assets/image/projects/quizz.png" alt="">
+                    <div class="project-item-overlay">
+                        <h4>Quizz</h4>
+                        <p>A Simple Quizz</p>
+                        <div class="overlay-area">
+
+                        </div>
+                    </div>
+                </div>
+
+
+    </section>
+
+
+    <section id="contact-me" class="contact-me">
+        <h1 class="header-text">Contact Me</h1>
+        <div class="contact-container"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+            <div class="contact-content-box">
+
+
+                <div class="contact-info">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"
+                        fill="rgba(255,255,255,1)">
+                        <path
+                            d="M18.364 17.364L12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364ZM12 15C14.2091 15 16 13.2091 16 11C16 8.79086 14.2091 7 12 7C9.79086 7 8 8.79086 8 11C8 13.2091 9.79086 15 12 15ZM12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13Z">
+                        </path>
+                    </svg>
+                    <h3>location:</h3>
+                    <h3> Rif Dimashq, Damascus, Syria</h3>
+                </div>
+
+                <div class="contact-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"
+                        fill="rgba(253,253,253,1)">
+                        <path
+                            d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM12.0606 11.6829L5.64722 6.2377L4.35278 7.7623L12.0731 14.3171L19.6544 7.75616L18.3456 6.24384L12.0606 11.6829Z">
+                        </path>
+                    </svg>
+                    <h3>Email:</h3>
+                    <h3>anas.haidar1995@gmail.com</h3>
+                </div>
+
+                <div class="contact-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"
+                        fill="rgba(255,255,255,1)">
+                        <path
+                            d="M6 2H18C18.5523 2 19 2.44772 19 3V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V3C5 2.44772 5.44772 2 6 2ZM12 17C11.4477 17 11 17.4477 11 18C11 18.5523 11.4477 19 12 19C12.5523 19 13 18.5523 13 18C13 17.4477 12.5523 17 12 17Z">
+                        </path>
+                    </svg>
+                    <h3>Call:</h3>
+                    <h3>+963 937230061</h3>
+                </div>
+            </div>
+
+            <div class="contact-content-box">
+                <div class="contact-items">
+                    <h3>Your Name: </h3>
+                    <input type="text" name="" id="">
+                    <h3>Your Email: </h3>
+                    <input type="text" name="" id="">
+                    <h3>Subject: </h3>
+                    <input type="text" name="" id="">
+                    <h3>Message: </h3>
+                    <textarea class="contact-textarea" name="" id=""></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
