@@ -1,4 +1,4 @@
-# My Portfolio
+# Portfolio
 
 This is a personal portfolio website to showcase my skills, projects, and experience as a full-stack developer.
 
@@ -27,7 +27,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AnasHaidar-95/My-Portfolio.git
+   git clone https://github.com/AnasHaidar-95/Portfolio.git
    ```
 2. Open the `index.html` file in your browser.
 
