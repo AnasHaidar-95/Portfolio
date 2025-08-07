@@ -4,7 +4,7 @@ This is a personal portfolio website to showcase my skills, projects, and experi
 
 ## Live Demo
 
-You can view the live demo of the portfolio [here](https://anashaidar-95.github.io/My-Portfolio/).
+You can view the live demo of the portfolio [here](https://anashaidar-95.github.io/Portfolio/).
 
 ## Features
 
