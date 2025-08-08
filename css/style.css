@@ -337,7 +337,7 @@ header.scrolled {
 }
 
 .hero-image img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 20px;
   box-shadow: var(--shadow-xl);
